@@ -1,6 +1,6 @@
-# Sliding-Puzzle-Quiz
 
-# Sliding-Puzzle-Quiz
+
+
 # Sliding Puzzle website, 10.10.2019
 By By Semhar I. Kidane
 
