@@ -8,10 +8,10 @@
 This blog gives access to potential employers.  
 
 ## Setup/Installation Requirements
-Clone this repository from my Github named semariah.
-cd into it and ls it.
-Open it on web-browser of your choice.
-Any changes must be pushed to Github with origin name instead of master.
+_Clone this repository from my Github named semariah._
+_cd into it and ls it._
+_Open it on web-browser of your choice._
+_Any changes must be pushed to Github with origin name instead of master._
 
 ## Known Bugs
 Not many Bugs known, but the commented out css style of @media query isn't responding as needed.
