@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.SlidingPuzzleFigure{
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: grid;
+  border-radius: 5px;
+  /* background-color: black; */
+
+}
+.SlidingPuzzle{
+  display: grid;
+  box-shadow: 0 1px 4px #999;
+  grid-template-columns: 60px 60px 60px;
+  grid-template-rows: 60px 60px 60px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 5px;
+  align-self: center;
+
+}
+
+ul li {
+  display: grid;
+  padding: 15px 20px;
+  border: 1px solid gray;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 5px #999;
+  -moz-box-shadow: 0 5px 5px #999;
+  -o-box-shadow: 0 5px 5px #999;
+  -ms-box-shadow: 0 5px 5px #999;
+  box-shadow: 0 5px 5px #999;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: white;
+
+
+}
+
+/*  For diffrent screens either desktop or phone*/
+
+@@media screen and (max-width: 700px){
+  .SlidingPuzzleFigure {
+    width: 50%;
+    flex-direction: column;
+  }
+
+}
